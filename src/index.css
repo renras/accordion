@@ -1,13 +1,73 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  background: #714955;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  background: #a0ecd0;
+  padding: 5rem;
+  gap: 5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3rem;
+  width: 21rem;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 50rem;
+}
+
+section {
+  background: #94ddbc;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #7b886b;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
